@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="646dp"
+        android:text="Menu"
+        android:textColor="@color/purple"
+        android:textSize="52sp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="529dp"
+        android:text="Chapathi and Fullmeals"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="481dp"
+        android:text="Chitranna"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="430dp"
+        android:text="Idly Vade"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="379dp"
+        android:text="FiredRice"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="259dp"
+        android:text="Order" />
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="298dp"
+        android:layout_height="211dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="27dp"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+</RelativeLayout>
